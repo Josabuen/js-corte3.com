@@ -1,0 +1,83 @@
+*{
+    font-family: Arial, Helvetica, sans-serif ;
+    color: rgb(255, 255, 255);
+}
+
+body{
+    background-color: rgb(27, 27, 27);
+}
+
+.input{
+    background-color: #00ff4c00;
+    color: whitesmoke;
+}
+
+table{
+    border: none;
+    border-radius: 5px;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border: 2px solid #ddd;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+th:first-child,
+td:first-child {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+th:last-child,
+td:last-child {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.input:focus.input{
+    background-color: #00ff4c00;
+    color: whitesmoke;
+    box-shadow: 0 0 10px #1eff00, 0 0 20px #1eff00;
+    transition: all 0.5s ease-in-out;
+}
+
+input[type="text"]::placeholder {
+    color: whitesmoke;
+}
+
+input[type="tel"]::placeholder {
+    color: whitesmoke;
+}
+
+.grid {
+
+     text-align: center;
+     position: relative;
+  
+}
+
+.neon-button {
+    display: inline-block;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: #00ff4c00;
+    box-shadow: 0 0 20px #1eff00;
+  }
+
+  .neon-button:hover {
+    background-color: #000000;
+    color: #1eff00;
+    box-shadow: 0 0 20px #1eff00, 0 0 40px #1eff00;
+    transition: all 0.5s ease-in-out;
+  }
